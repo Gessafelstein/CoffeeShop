@@ -1,0 +1,8 @@
+.header-container {
+  width: 100%;
+  background-color: #262626;
+}
+.header-container .navbar {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=styles.css.map */
