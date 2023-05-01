@@ -1,8 +1,42 @@
 .header-container {
-  width: 100%;
   background-color: #262626;
+  align-items: center;
+  padding: 30px 135px;
 }
 .header-container .navbar {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header-container .navbar .menu-left {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.header-container .navbar .menu-left a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.header-container .navbar .menu-right {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.header-container .navbar .menu-right a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #ffffff;
 }/*# sourceMappingURL=styles.css.map */
