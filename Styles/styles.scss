@@ -35,6 +35,10 @@
             }
         }
 
+        img {
+            cursor: pointer;
+        }
+
 
         .menu-right {
             align-items: center;
@@ -56,6 +60,48 @@
                     color: #FAC660;
                 }
             }
+        }
+    }
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #262626;
+    text-align: center;
+
+    .hero-heading{
+        margin-top: 100px;
+        font-family: 'Italiana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 130px;
+        color: #FFFFFF;
+
+        span {
+            color: #FAC660;
+        }
+    }
+
+
+    .buttons {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        .coffener {
+            padding: 10px 30px;
+            background-color: #FAC660;
+            border-radius: 30px;
+            
+        }
+
+        .Twitter {
+            border-radius: 30px;
+            padding: 10px 30px;
         }
     }
 }
