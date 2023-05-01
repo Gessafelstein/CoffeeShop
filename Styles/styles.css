@@ -77,13 +77,41 @@
   margin-top: 80px;
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 .hero .buttons .coffener {
   padding: 10px 30px;
   background-color: #FAC660;
   border-radius: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.hero .buttons .coffener:hover {
+  color: #FAC660;
+  background-color: #262626;
+  border: 2px solid #FAC660;
 }
 .hero .buttons .Twitter {
   border-radius: 30px;
   padding: 10px 30px;
+  border: 2px solid #FAC660;
+  background-color: #262626;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.hero .buttons .Twitter:hover {
+  color: #262626;
+  background-color: #FAC660;
 }/*# sourceMappingURL=styles.css.map */
