@@ -354,4 +354,78 @@
 .Experience .info2 .info2-img {
   display: flex;
   flex-direction: column;
+}
+.Experience .info2 .info2-img p {
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.news {
+  width: 100%;
+}
+.news .news-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  margin: 0 auto;
+  width: 1200px;
+  margin-top: 60px;
+}
+.news .news-container .headline {
+  display: flex;
+  flex-direction: row;
+  gap: 460px;
+}
+.news .news-container .headline h2 {
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  color: #202020;
+}
+.news .news-container .headline img {
+  width: 40px;
+  height: 40px;
+  margin-top: 28px;
+  padding: 30px;
+  border: 4px solid #F2F2F2;
+  border-radius: 24px;
+}
+.news .news-container .items {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 60px 0px;
+}
+.news .news-container .items .item1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  color: #202020;
+}
+.news .news-container .items .item2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  color: #202020;
+}
+.news .news-container .items .item3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  color: #202020;
 }/*# sourceMappingURL=styles.css.map */
