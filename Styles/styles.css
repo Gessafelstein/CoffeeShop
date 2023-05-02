@@ -188,6 +188,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 .about .points .frame1 p {
   padding: 60px 0px;
@@ -203,4 +204,29 @@
   font-weight: 400;
   font-size: 40px;
   line-height: 48px;
+}
+
+.Experience {
+  width: 100%;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+}
+.Experience .heading {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1200px;
+  margin: 0 auto;
+}
+.Experience .heading h2 {
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+}
+.Experience .heading h2 span {
+  color: #FAC660;
 }/*# sourceMappingURL=styles.css.map */
