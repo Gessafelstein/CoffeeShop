@@ -167,3 +167,81 @@
 
     }
 }
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1200px;
+    margin: 0 auto;
+    .about-heading {
+
+        margin-top: 60px;
+        h2 {
+            font-family: 'Italiana';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 64px;
+            color: #262626;
+        }
+
+
+        .description {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 40px;
+                color: #202020;
+            }
+
+            button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                background-color: #ffffff;
+                text-decoration: underline;
+                cursor: pointer;
+
+            }
+        }
+    }
+
+
+    .points {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 60px;
+
+        .frame1 {
+            
+            p {
+                padding: 60px 0px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 32px;
+            }
+
+            h5 {
+                font-family: 'Italiana';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 48px;
+            }
+        }
+    }
+}
