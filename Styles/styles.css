@@ -54,6 +54,7 @@
 
 .hero {
   width: 100%;
+  height: 1004px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -114,4 +115,10 @@
 .hero .buttons .Twitter:hover {
   color: #262626;
   background-color: #FAC660;
+}
+.hero .video {
+  display: flex;
+  width: 1170px;
+  height: 600px;
+  background-image: url(/assets/);
 }/*# sourceMappingURL=styles.css.map */

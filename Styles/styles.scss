@@ -66,6 +66,7 @@
 
 .hero {
     width: 100%;
+    height: 1004px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -132,5 +133,13 @@
                 background-color: #FAC660;
             }
         }
+    }
+
+    .video {
+        display: flex;
+        width: 1170px;
+        height: 600px;
+        background-image: url(/assets/);
+
     }
 }
