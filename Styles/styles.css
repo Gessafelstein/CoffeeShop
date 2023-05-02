@@ -226,7 +226,12 @@
   font-size: 48px;
   line-height: 64px;
   color: #ffffff;
+  margin-top: 120px;
 }
 .Experience .heading h2 span {
   color: #FAC660;
+}
+.Experience .heading img {
+  width: 224.06px;
+  height: 120px;
 }/*# sourceMappingURL=styles.css.map */
