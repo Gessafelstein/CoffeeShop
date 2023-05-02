@@ -290,6 +290,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        gap: 130px;
         
 
         .image {
@@ -306,6 +307,116 @@
                 line-height: 24px;
                 color: #ffffff;
             }
+        }
+
+        .info-text {
+            margin: 85px 0px;
+            color: #ffffff;
+
+
+            .p1 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 32px;
+            }
+
+            .p2 {
+                margin-top: 60px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 32px;
+            }
+
+            button {
+                margin-top: 60px;
+                padding: 10px 30px;
+                background-color: #FAC660;
+                border-radius: 30px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                border: none;
+                cursor: pointer;
+                transition: 0.5s;
+                &:hover {
+                    color :#FAC660 ;
+                    background-color: #262626;
+                    border: 2px solid #FAC660;
+        
+                }
+
+            }
+        }
+    }
+
+    .info2 {
+        width: 1200px;
+        margin: 0 auto;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 130px;
+
+        .info2-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            .p1 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 32px;
+                color: #ffffff;
+            }
+
+            .p2 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 32px;
+                color: #ffffff;
+                margin: 60px 0px;
+            }
+
+            button {
+                display: flex;
+                align-items: flex-start;
+                border-radius: 30px;
+                padding: 10px 30px;
+                border: 2px solid #FAC660;
+                background-color: #262626;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #ffffff;
+                cursor: pointer;
+                transition: 0.5s;
+                margin-right: auto;
+    
+                &:hover {
+                    color :#262626 ;
+                    background-color: #FAC660;
+                }
+            }
+        }
+
+        .info2-img {
+            display: flex;
+            flex-direction: column;
         }
     }
 }

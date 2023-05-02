@@ -243,6 +243,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 130px;
 }
 .Experience .info1 .image {
   display: flex;
@@ -257,4 +258,100 @@
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
+}
+.Experience .info1 .info-text {
+  margin: 85px 0px;
+  color: #ffffff;
+}
+.Experience .info1 .info-text .p1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+}
+.Experience .info1 .info-text .p2 {
+  margin-top: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+}
+.Experience .info1 .info-text button {
+  margin-top: 60px;
+  padding: 10px 30px;
+  background-color: #FAC660;
+  border-radius: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.Experience .info1 .info-text button:hover {
+  color: #FAC660;
+  background-color: #262626;
+  border: 2px solid #FAC660;
+}
+.Experience .info2 {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 130px;
+}
+.Experience .info2 .info2-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.Experience .info2 .info2-text .p1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.Experience .info2 .info2-text .p2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 60px 0px;
+}
+.Experience .info2 .info2-text button {
+  display: flex;
+  align-items: flex-start;
+  border-radius: 30px;
+  padding: 10px 30px;
+  border: 2px solid #FAC660;
+  background-color: #262626;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-right: auto;
+}
+.Experience .info2 .info2-text button:hover {
+  color: #262626;
+  background-color: #FAC660;
+}
+.Experience .info2 .info2-img {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=styles.css.map */
