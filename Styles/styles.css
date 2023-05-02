@@ -234,4 +234,11 @@
 .Experience .heading img {
   width: 224.06px;
   height: 120px;
+}
+.Experience .info1 {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
