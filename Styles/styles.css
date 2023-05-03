@@ -457,20 +457,21 @@ footer .subscribe .input {
   border-radius: 56px;
 }
 footer .subscribe .input input {
-  padding: 20px;
   margin: 5px;
+  margin-left: 15px;
 }
 footer .subscribe .input button {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  padding: 10px;
-  line-height: 72px;
+  font-size: 16px;
+  line-height: 42px;
   border: none;
   background: #202020;
   border-radius: 0px 56px 56px 0px;
   color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
 }
 footer .footer-navigation {
   width: 100%;
@@ -486,12 +487,12 @@ footer .footer-navigation .footer-items {
 }
 footer .footer-navigation .footer-items .nav {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+  gap: 48px;
 }
 footer .footer-navigation .footer-items .nav ul {
   display: flex;
-  justify-content: space-between;
   gap: 20px;
 }
 footer .footer-navigation .footer-items .nav ul a {
@@ -502,4 +503,33 @@ footer .footer-navigation .footer-items .nav ul a {
   font-size: 12px;
   line-height: 18px;
   color: #ffffff;
+}
+footer .footer-navigation .footer-items .nav .flexend {
+  justify-content: flex-end;
+}
+footer .copyright {
+  display: flex;
+  width: 100%;
+  background: #262626;
+  border-top: 1px solid #202020;
+}
+footer .copyright .footer-reserved {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+  color: #ffffff;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+footer .copyright .footer-reserved p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }/*# sourceMappingURL=styles.css.map */
